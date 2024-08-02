@@ -1,0 +1,753 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');*{
+    margin: auto 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 100%;
+    height: 4887px;
+}
+header{
+    width: 1280px;
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.headerbox{
+    width: 100%;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .left{
+    width: 195px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+header .right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.content-top{
+    background-color: #F7F8FD;
+    width: 100%;
+    height: 856px;
+}
+.search{
+    width: 100%;
+    height: 434px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services{
+    width: 100%;
+    height: 996px;
+    background-color: #F7F8FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.words{
+    width: 100%;
+    height: 717px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blue-content{
+    background: #0098FF;
+    width: 100%;
+    height: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plans{
+    height: 999px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    height: 98px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    text-decoration: none;
+}
+header a{
+    color: #03045E;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+.logo{
+    width: 195px;
+    height: 49px;
+}
+nav{
+    width: 550px;
+    height: 49px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a{
+    padding-right: 40px;
+}
+.login-button{
+    padding-right: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 11px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #03045E;
+}
+.content-top-sides{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-top-sides .left-side{
+    width: 48%;
+    height: 100%;
+
+}
+.content-top-sides .right-side{
+    width: 48%;
+    height: 100%;
+}
+.content-top-sides .left-side h1{
+    color: #03045E;
+    font-family: Ubuntu;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px; /* 141.667% */
+    width: 556px;
+}
+.content-top-sides .left-side p{
+    color: rgba(3, 4, 94, 0.50);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 556px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.top-content{
+    height: 456px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-top-sides .left-side a{
+    display: flex;
+    padding: 17px 38px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #0098FF;
+    width: 188px;
+    height: 61px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+.image{
+    width: 624px;
+    height: 456px;
+    position: relative;
+    bottom: 50px;
+}
+.search-content{
+    width: 1280px;
+    height: 134px;
+    display: flex;
+}
+.search-content .left-side{
+    width: 55%;
+    height: 100%;
+    border-right: 1px solid rgba(3, 4, 94, 0.28);
+}
+.search-content .left-side  h3{
+    font-family: "Ubuntu";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.77px;
+    text-align: left;
+    color: #03045E;
+}
+.search-content .left-side input{
+    width: 470px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background: #F6F6F6;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    position: relative;
+    top: 36px;
+}
+.input{
+    display: flex;
+}
+.search-content .left-side .input .button{
+    display: inline-flex;
+    padding: 15px 38px 18px 38px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 5px 5px 0px;
+    background: #0098FF;
+    position: relative;
+    top: 36px;
+}
+.search-content .left-side .input .button a{
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+.search-content .right-side{
+    width: 45%;
+    height: 100%;
+}
+.search-content .right-side .top{
+    width: 90%;
+    height: 51px;
+}
+.search-content .right-side .bottom{
+    width: 90%;
+    height: 51px;
+    position: relative;
+    top: 32px;
+}
+.search-content .right-side .domains{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 49px;
+}
+.price{
+    padding-top: 7px;
+}
+.dmn{
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22.98px;
+    text-align: left;
+    color: #0098FF;
+}
+.price{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(3, 4, 94, 0.50);
+}
+.ser-content{
+    width: 1280px;
+    height: 696px;
+}
+.title{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #03045E;
+    font-family: "Ubuntu";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ser-row{
+    width: 100%;
+    height: 255px;
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.ser-row2{
+    width: 100%;
+    height: 255px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 182px;
+}
+.block{
+    width: 407px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+}
+h5{
+    color: #03045E;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.block-p p{
+    color: rgba(3, 4, 94, 0.50);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: 30px;
+}
+.w-content{
+    width: 1280px;
+    height: 369px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.w-title{
+    width: 660px;
+    height: 46px;
+    color: #03045E;
+    font-family: "Ubuntu";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.word-blocks{
+    width: 100%;
+    height: 263px;
+    display: flex;
+    justify-content: space-between;
+}
+.w-block{
+    width: 407px;
+    height: 263px;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+}
+.w-block p{
+    color: rgba(3, 4, 94, 0.50);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+}
+.w-block h5{
+    position: absolute;
+    top: 161px;
+}
+.w-block .city{
+    position: absolute;
+    top: 192px;
+}
+.lines{
+    width: 100px;
+    height: 48px;
+    display: flex;
+    align-items: flex-end;
+}
+.b-content{
+    width: 1280px;
+    height: 115px;
+    display: flex;
+    justify-content: space-around;
+}
+.blue-block{
+    width: 297px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-block h4{
+    color: #FFF;
+    font-family: "Ubuntu";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.blue-block p{
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: 16px;
+}
+.p-content{
+    height: 699px;
+    width: 1280px;
+}
+.offers{
+    width: 100%;
+    height: 593px;
+    display: flex;
+    justify-content: center
+}
+.flexible{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #03045E;
+    font-family: "Ubuntu";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.offer{
+    width: 318px;
+    height: 593px;
+    position: relative;
+    top: 60px;
+}
+.o-top{
+    width: 100%;
+    height: 151px;
+}
+.o-top h6{
+    color: #0098FF;
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: 40px;
+}
+.offer-blue .o-top  h6{
+    color: white;
+}
+.o-top h3{
+    color: #03045E;
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: 74px;
+}
+.offer-blue .o-top  h3{
+    color: white;
+}
+.o-about{
+    width: 100%;
+    height: 308px;
+}
+.o-in{
+    width: 100%;
+    height: 44px;
+    border-top: 1px solid #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    color: #03045E;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.offer-blue .o-about .o-in-blue{
+    border-top: 1px solid white;
+    color: white;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.o-in-first{
+    width: 100%;
+    height: 44px;
+    border-top: 1px solid #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    color: #03045E;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.offer-blue .o-about .o-in-first-blue{
+    border-top: 1px solid white;
+    color: white;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.o-in-last{
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    color: #03045E;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.offer-blue .o-about .o-in-last-blue{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.o-bottom{
+    width: 100%;
+    height: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.o-bottom a{
+    display: inline-flex;
+    padding: 11px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #03045E;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.offer-blue{
+    background-color: #0098FF;
+    width: 318px;
+    height: 593px;
+    position: relative;
+    top: 60px;
+}
+.top-footer{
+    width: 100%;
+    height: 472px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tf-content{
+    width: 1280px;
+    height: 272px;
+    display: flex;
+    justify-content: space-between;
+}
+.f-content{
+    width: 1280px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.f-content p{
+    color: #03045E;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.con1{
+    width: 297px;
+    height: 100%;
+}
+.con2{
+    width: 187px;
+    height: 100%;
+}
+.con3{
+    width: 188px;
+    height: 100%;
+}
+.con4{
+    width: 297px;
+    height: 100%;
+}
+.con4-1{
+    width: 297px;
+    height: 50%;
+}
+.con4-2{
+    width: 297px;
+    height: 50%;
+}
+.par p{
+    color: rgba(3, 4, 94, 0.50);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.par{
+    height: 72px;
+    position: relative;
+    top: 24px;
+}
+.ch6{
+    color: #000;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.alink{
+    width: 100%;
+    height: 160px;
+    position: relative;
+    top: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.alink a{
+    color: rgba(3, 4, 94, 0.50);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 250% */
+    text-decoration: none;
+}
+.alink p{
+    color: rgba(3, 4, 94, 0.50);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 250% */
+    text-decoration: none;
+}
+.svg-icons{
+    width: 112px;
+    height: 24px;
+    position: relative;
+    top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
